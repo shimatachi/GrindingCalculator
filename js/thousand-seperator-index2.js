@@ -1,18 +1,18 @@
 function calculate() {
 	var input = updateValue('input');
 
-	var plane1 = input * 12000 ;
-	var plane2 = input * 24000 ;
-	var plane3 = input * 48000 ;
-	var tank1 = input * 6000 ;
-	var tank2 = input * 12000 ;
-	var tank3 = input * 24000 ;
-	var naval1 = input * 4800 ;
-	var naval2 = input * 9600 ;
-	var naval3 = input * 19200 ;
-	var heli1 = input * 4320 ;
-	var heli2 = input * 8640 ;
-	var heli3 = input * 17280 ;
+	var plane1 = input * 10000 ;
+    var plane2 = input * 20000 ;
+    var plane3 = input * 40000 ;
+    var tank1 = input * 5000 ;
+    var tank2 = input * 10000 ;
+    var tank3 = input * 20000 ;
+    var naval1 = input * 4000 ;
+    var naval2 = input * 8000 ;
+    var naval3 = input * 16000 ;
+    var heli1 = input * 3600 ;
+    var heli2 = input * 7200 ;
+    var heli3 = input * 14400 ;
 
 	let resultplane1 = plane1.toFixed(2);
 	let resultplane2 = plane2.toFixed(2);
